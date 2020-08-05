@@ -1,0 +1,248 @@
+{
+  "csrfToken": "e0e41125-4d86-498c-ac82-d9040ce8e9df",
+  "elements": [
+    {
+      "key": "P885",
+      "functionalKey": "P885_Placeholder_1",
+      "name": "Placeholder",
+      "properties": {},
+      "children": ["P885-C0"],
+      "displayName": null,
+      "contentStyle": "page",
+      "messages": [],
+      "type": "page",
+      "styles": []
+    },
+    {
+      "key": "P885-C0-F0",
+      "functionalKey": "P885_Customer-FirstName_1",
+      "name": "Customer.FirstName",
+      "properties": {},
+      "questionText": "First Name",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": false,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": true,
+      "displayLength": -1,
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "Regexp",
+          "message": "Oopsie",
+          "parameters": {
+            "posregexp": "^[A-Z][a-z]*$"
+          }
+        }
+      ],
+      "parameters": [
+        {
+          "key": "P885-C0-CI1",
+          "name": "AQ_QuestionText",
+          "type": "text",
+          "multiValued": false,
+          "text": [
+            {
+              "key": "P885-C0-CI1",
+              "functionalKey": "P885_FirstName_1",
+              "name": "FirstName",
+              "properties": {},
+              "children": ["P885-C0-CI1-TI0"],
+              "contentStyle": null,
+              "plainText": "First Name",
+              "type": "contentitem",
+              "styles": []
+            },
+            {
+              "key": "P885-C0-CI1-TI0",
+              "functionalKey": "P885_TextItem_1",
+              "name": "TextItem",
+              "properties": {},
+              "nodes": [
+                {
+                  "text": "First Name",
+                  "nodeType": "text"
+                }
+              ],
+              "plainText": "First Name",
+              "type": "textitem",
+              "styles": []
+            }
+          ],
+          "plainText": "First Name"
+        },
+        {
+          "key": "P885-C0-CI2",
+          "name": "AQ_PlaceholderText",
+          "type": "text",
+          "multiValued": false,
+          "text": [
+            {
+              "key": "P885-C0-CI2",
+              "functionalKey": "P885_Placeholder_2",
+              "name": "Placeholder",
+              "properties": {},
+              "children": ["P885-C0-CI2-TI0"],
+              "contentStyle": null,
+              "plainText": "Enter your first name",
+              "type": "contentitem",
+              "styles": []
+            },
+            {
+              "key": "P885-C0-CI2-TI0",
+              "functionalKey": "P885_TextItem_2",
+              "name": "TextItem",
+              "properties": {},
+              "nodes": [
+                {
+                  "text": "Enter your first name",
+                  "nodeType": "text"
+                }
+              ],
+              "plainText": "Enter your first name",
+              "type": "textitem",
+              "styles": []
+            }
+          ],
+          "plainText": "Enter your first name"
+        }
+      ],
+      "type": "field",
+      "styles": []
+    },
+    {
+      "key": "P885-C0",
+      "functionalKey": "P885-C0",
+      "name": null,
+      "properties": {},
+      "children": ["P885-C0-F0", "P885-C0-F3"],
+      "displayName": null,
+      "contentStyle": "container",
+      "type": "container",
+      "styles": []
+    },
+    {
+      "key": "P885-C0-F3",
+      "functionalKey": "P885_Customer-Surname_1",
+      "name": "Customer.Surname",
+      "properties": {},
+      "questionText": "Surname",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": false,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": true,
+      "displayLength": -1,
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "StringLength",
+          "message": "Between 2 and 10 characters",
+          "parameters": {
+            "minlength": "2",
+            "maxlength": "10"
+          }
+        }
+      ],
+      "parameters": [
+        {
+          "key": "P885-C0-CI4",
+          "name": "AQ_QuestionText",
+          "type": "text",
+          "multiValued": false,
+          "text": [
+            {
+              "key": "P885-C0-CI4",
+              "functionalKey": "P885_Suranme_1",
+              "name": "Suranme",
+              "properties": {},
+              "children": ["P885-C0-CI4-TI0"],
+              "contentStyle": null,
+              "plainText": "Surname",
+              "type": "contentitem",
+              "styles": []
+            },
+            {
+              "key": "P885-C0-CI4-TI0",
+              "functionalKey": "P885_TextItem_3",
+              "name": "TextItem",
+              "properties": {},
+              "nodes": [
+                {
+                  "text": "Surname",
+                  "nodeType": "text"
+                }
+              ],
+              "plainText": "Surname",
+              "type": "textitem",
+              "styles": []
+            }
+          ],
+          "plainText": "Surname"
+        },
+        {
+          "key": "P885-C0-CI5",
+          "name": "AQ_PlaceholderText",
+          "type": "text",
+          "multiValued": false,
+          "text": [
+            {
+              "key": "P885-C0-CI5",
+              "functionalKey": "P885_placeholderSurname_1",
+              "name": "placeholderSurname",
+              "properties": {},
+              "children": ["P885-C0-CI5-TI0"],
+              "contentStyle": null,
+              "plainText": "Please enter your last name",
+              "type": "contentitem",
+              "styles": []
+            },
+            {
+              "key": "P885-C0-CI5-TI0",
+              "functionalKey": "P885_TextItem_4",
+              "name": "TextItem",
+              "properties": {},
+              "nodes": [
+                {
+                  "text": "Please enter your last name",
+                  "nodeType": "text"
+                }
+              ],
+              "plainText": "Please enter your last name",
+              "type": "textitem",
+              "styles": []
+            }
+          ],
+          "plainText": "Please enter your last name"
+        }
+      ],
+      "type": "field",
+      "styles": []
+    }
+  ],
+  "language": {
+    "patterns": {
+      "date": "yyyy-MM-dd",
+      "datetime": "yyyy-MM-dd HH:mm:ss"
+    },
+    "languageCode": "aa-ET"
+  },
+  "messages": [
+    {
+      "key": "page.validations.message",
+      "message": "There are validation messages on the page."
+    }
+  ]
+}
